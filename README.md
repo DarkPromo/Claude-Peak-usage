@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <b>v1.3.1</b> &nbsp;·&nbsp; Claude Code 2.1.332+ &nbsp;·&nbsp; terminal, desktop Code tab, chat &amp; Cowork
+  <b>v1.3.2</b> &nbsp;·&nbsp; Claude Code 2.1.332+ &nbsp;·&nbsp; terminal, desktop Code tab, chat &amp; Cowork
 </p>
 
 ---
@@ -53,7 +53,7 @@ flowchart LR
 /plugin install peakusage --marketplace DarkPromo/Claude-Peak-usage
 ```
 
-**Desktop app or Claude chat:** download `peakusage-1.3.1.zip` from the [latest release](https://github.com/DarkPromo/Claude-Peak-usage/releases/latest) and use **Customize > Plugins > Add > Upload plugin**. Remove an older copy first so two copies do not run side by side.
+**Desktop app or Claude chat:** download `peakusage-1.3.2.zip` from the [latest release](https://github.com/DarkPromo/Claude-Peak-usage/releases/latest) and use **Customize > Plugins > Add > Upload plugin**. Remove an older copy first so two copies do not run side by side.
 
 **From a local folder:**
 

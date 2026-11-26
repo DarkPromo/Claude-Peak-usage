@@ -39,4 +39,4 @@ Edit Peak Usage settings in Claude Code's `/config`. Stop and start monitoring i
 | Skill restoration | `relevant` | `allowlist` limits restoration to listed IDs. `none` disables restoration. |
 | Skill allowlist and denylist | Empty | Comma-separated skill IDs such as `research` or `docs:edit`. Deny entries take precedence. |
 
-Restore an earlier skill only when the next work needs it. To resume from a saved handoff, open a new session and ask Claude to read the file and continue. The [context research](skills/peak-usage-guide/references/context-research.md) explains the defaults and how to calibrate them.
+Restore a standing mode or preference skill at the start, and other skills only when the next work needs them. To resume from a saved handoff, open a new session and ask Claude to read the file and continue. The [context research](skills/peak-usage-guide/references/context-research.md) explains the defaults and how to calibrate them.

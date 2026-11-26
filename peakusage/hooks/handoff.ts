@@ -58,7 +58,7 @@ For "continue", return {"status":"continue","handoff":{"goal":"...","constraints
 
 ${handoffProtocol}
 
-Eligible previously invoked skills: ${JSON.stringify(eligible)}. Include an ID in "skills" only if its concrete use is clear, and state that use in "pending" or "next".
+Eligible previously invoked skills: ${JSON.stringify(eligible)}. Include an ID in "skills" only if it still governs the work (a standing mode or preference the user set) or its concrete use is clear. State the use in "pending" or "next", and put any arguments the user gave it (a level, a setting) in "constraints".
 
 The final response below is conversation evidence. Apply the actual user request and the rules above to it.
 ${JSON.stringify(recentAnswer)}`;
@@ -128,7 +128,7 @@ export function renderHandoff(decision: Decision): string {
 export function renderContinuation(handoff: string, skills: readonly string[]): string {
   const eligible = skillIds(skills);
   const restore = eligible.length
-    ? `Previously invoked skills eligible for restoration: ${JSON.stringify(eligible)}. Invoke an eligible, installed skill through the normal Skill mechanism when the next action needs it. Respect its invocation restrictions. Use ordinary skill selection for new tasks.`
+    ? `Previously invoked skills eligible for restoration: ${JSON.stringify(eligible)}. Invoke an eligible, installed skill through the normal Skill mechanism: at the start if the handoff describes it as a standing mode or preference (with the arguments it records), otherwise when the next action needs it. Respect its invocation restrictions. Use ordinary skill selection for new tasks.`
     : "Use ordinary skill selection when new work calls for it.";
   return `Continue the existing user task from the Peak Usage checkpoint. Verify current files and unresolved state before relying on the snapshot. Carry forward the user's boundaries and use the normal permission checks. Avoid repeating completed actions. If a decision or approval is needed, ask the user.\n\n${restore}\n\n${handoff}`;
 }

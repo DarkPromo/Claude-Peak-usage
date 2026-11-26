@@ -57,6 +57,6 @@ At a soft checkpoint, look for a natural break (a finished investigation, a test
 
 ## Making and resuming a handoff
 
-To create one, follow [the handoff instructions](references/handoff.md). To resume, read the handoff, verify the current state of the files before relying on it, and use previously used skills only when the next step needs them and they pass the restoration policy.
+To create one, follow [the handoff instructions](references/handoff.md). To resume, read the handoff, verify the current state of the files before relying on it, and re-invoke earlier skills that still govern the work (a standing mode or preference) at the start, and others only when the next step needs them, all under the restoration policy.
 
 If the user asks why the defaults are what they are, or how to calibrate them, read [the context research](references/context-research.md). Its figures come from third-party papers and vendor documents that were not independently re-checked here; present them as reported, not as settled fact.

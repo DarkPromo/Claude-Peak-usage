@@ -1,7 +1,7 @@
 {
   "name": "peakusage",
   "displayName": "Peak Usage",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Get more done per context window and usage limit. Efficiency habits, Markdown handoffs, relevant-skill restoration, and opt-in fresh-session rollover in the Claude Code terminal.",
   "author": {
     "name": "Peak Usage"
