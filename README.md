@@ -114,3 +114,7 @@ peakusage/                        the plugin
   skills/                         handoff, peak-compact, peak-usage-guide
 assets/banner.svg                 banner used above
 ```
+
+## License
+
+[MIT](LICENSE)

@@ -73,5 +73,6 @@
       "description": "Comma-separated exact skill IDs to exclude from restoration",
       "default": ""
     }
-  }
+  },
+  "license": "MIT"
 }
