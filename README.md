@@ -7,9 +7,7 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-1.3.1-d97757">
-  <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-2.1.332%2B-4fb08a">
-  <img alt="surfaces" src="https://img.shields.io/badge/terminal%20%C2%B7%20desktop%20Code%20tab%20%C2%B7%20chat%20%26%20Cowork-444">
+  <b>v1.3.1</b> &nbsp;·&nbsp; Claude Code 2.1.332+ &nbsp;·&nbsp; terminal, desktop Code tab, chat &amp; Cowork
 </p>
 
 ---
