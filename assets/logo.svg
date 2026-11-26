@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="t">
+  <title id="t">Peak Usage logo</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14110f"/><stop offset="1" stop-color="#2a1a14"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#e08a63" stop-opacity="0.55"/><stop offset="1" stop-color="#e08a63" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="200" fill="url(#glow)"/>
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#3a2c25" stroke-width="20"/>
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#e08a63" stroke-width="20" stroke-linecap="round" stroke-dasharray="694.3 1068.1" transform="rotate(-90 256 256)"/>
+  <line x1="256.0" y1="204.0" x2="256.0" y2="144.0" stroke="#fff0e6" stroke-width="14" stroke-linecap="round"/>
+  <line x1="282.0" y1="211.0" x2="299.0" y2="181.5" stroke="#e8a87c" stroke-width="14" stroke-linecap="round"/>
+  <line x1="301.0" y1="230.0" x2="353.0" y2="200.0" stroke="#fff0e6" stroke-width="14" stroke-linecap="round"/>
+  <line x1="308.0" y1="256.0" x2="342.0" y2="256.0" stroke="#e8a87c" stroke-width="14" stroke-linecap="round"/>
+  <line x1="301.0" y1="282.0" x2="353.0" y2="312.0" stroke="#fff0e6" stroke-width="14" stroke-linecap="round"/>
+  <line x1="282.0" y1="301.0" x2="299.0" y2="330.5" stroke="#e8a87c" stroke-width="14" stroke-linecap="round"/>
+  <line x1="256.0" y1="308.0" x2="256.0" y2="368.0" stroke="#fff0e6" stroke-width="14" stroke-linecap="round"/>
+  <line x1="230.0" y1="301.0" x2="213.0" y2="330.5" stroke="#e8a87c" stroke-width="14" stroke-linecap="round"/>
+  <line x1="211.0" y1="282.0" x2="159.0" y2="312.0" stroke="#fff0e6" stroke-width="14" stroke-linecap="round"/>
+  <line x1="204.0" y1="256.0" x2="170.0" y2="256.0" stroke="#e8a87c" stroke-width="14" stroke-linecap="round"/>
+  <line x1="211.0" y1="230.0" x2="159.0" y2="200.0" stroke="#fff0e6" stroke-width="14" stroke-linecap="round"/>
+  <line x1="230.0" y1="211.0" x2="213.0" y2="181.5" stroke="#e8a87c" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="30" fill="#fff0e6" filter="url(#soft)" opacity="0.8"/>
+  <circle cx="256" cy="256" r="22" fill="#fff0e6"/>
+</svg>

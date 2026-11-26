@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/logo.svg" alt="Peak Usage logo" width="128">
+</p>
+
+<p align="center">
   <img src="assets/banner.svg" alt="Peak Usage: a full context bar hands off to a fresh session" width="100%">
 </p>
 
