@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Peak Usage</title>
+  <desc id="d">A context bar fills past a soft marker, then hands off to a fresh, nearly empty bar.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14110f"/>
+      <stop offset="1" stop-color="#2a1a14"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8a87c"/>
+      <stop offset="0.65" stop-color="#d97757"/>
+      <stop offset="1" stop-color="#c2543a"/>
+    </linearGradient>
+    <linearGradient id="fresh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7fd1ae"/>
+      <stop offset="1" stop-color="#4fb08a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="64" y="110" font-size="60" font-weight="700" fill="#fff5ee">Peak Usage</text>
+    <text x="64" y="156" font-size="24" fill="#d9c3b6">Get the most out of Claude: know when a conversation has</text>
+    <text x="64" y="188" font-size="24" fill="#d9c3b6">grown too big, then hand off to a fresh session.</text>
+
+    <!-- full context bar -->
+    <text x="64" y="262" font-size="15" fill="#a89485" letter-spacing="1.2">CONTEXT WINDOW</text>
+    <rect x="64" y="276" width="620" height="34" rx="17" fill="#3a2c25"/>
+    <rect x="64" y="276" width="548" height="34" rx="17" fill="url(#fill)"/>
+    <!-- soft and hard markers -->
+    <line x1="397" y1="262" x2="397" y2="324" stroke="#fff5ee" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="397" y="348" font-size="14" fill="#fff5ee" text-anchor="middle">soft</text>
+    <line x1="590" y1="262" x2="590" y2="324" stroke="#fff5ee" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="590" y="348" font-size="14" fill="#fff5ee" text-anchor="middle">hard</text>
+
+    <!-- arrow -->
+    <path d="M716 293 H 800" stroke="#e8a87c" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M788 281 L802 293 L788 305" stroke="#e8a87c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="758" y="266" font-size="14" fill="#e8a87c" text-anchor="middle">handoff</text>
+
+    <!-- fresh bar -->
+    <text x="834" y="262" font-size="15" fill="#a89485" letter-spacing="1.2">FRESH SESSION</text>
+    <rect x="834" y="276" width="302" height="34" rx="17" fill="#3a2c25"/>
+    <rect x="834" y="276" width="46" height="34" rx="17" fill="url(#fresh)"/>
+  </g>
+</svg>

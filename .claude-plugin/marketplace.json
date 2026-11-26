@@ -1,0 +1,14 @@
+{
+  "name": "claude-peak-usage",
+  "owner": {
+    "name": "DarkPromo"
+  },
+  "plugins": [
+    {
+      "name": "peakusage",
+      "source": "./peakusage",
+      "description": "Get more done per context window and usage limit. Efficiency habits, Markdown handoffs, relevant-skill restoration, and opt-in fresh-session rollover."
+    }
+  ],
+  "description": "Peak Usage: context monitoring and fresh-session handoff for Claude."
+}

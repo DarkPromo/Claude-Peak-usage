@@ -1,0 +1,4 @@
+{
+  "description": "Peak Usage context monitoring and session handoff",
+  "modules": ["./register.ts"]
+}

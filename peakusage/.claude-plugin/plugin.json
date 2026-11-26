@@ -1,0 +1,77 @@
+{
+  "name": "peakusage",
+  "displayName": "Peak Usage",
+  "version": "1.3.1",
+  "description": "Get more done per context window and usage limit. Efficiency habits, Markdown handoffs, relevant-skill restoration, and opt-in fresh-session rollover in the Claude Code terminal.",
+  "author": {
+    "name": "Peak Usage"
+  },
+  "userConfig": {
+    "autostart": {
+      "type": "string",
+      "title": "Start monitoring automatically",
+      "description": "on: monitor every session without /peak-usage start. In the desktop Code tab it asks Claude to hand off; in a terminal it follows the rollover mode. off: wait for /peak-usage start.",
+      "options": [
+        "on",
+        "off"
+      ],
+      "default": "on"
+    },
+    "mode": {
+      "type": "string",
+      "title": "Rollover mode",
+      "description": "Automatic rollover or handoff suggestions after opt-in",
+      "options": [
+        "auto",
+        "suggest"
+      ],
+      "default": "auto"
+    },
+    "soft_percent": {
+      "type": "number",
+      "title": "Soft context percentage",
+      "description": "Review remaining work at the lower of this percentage and the token cap",
+      "min": 1,
+      "max": 98,
+      "default": 65
+    },
+    "soft_cap_tokens": {
+      "type": "number",
+      "title": "Soft token cap",
+      "description": "Absolute occupied-token checkpoint. Zero disables the cap.",
+      "min": 0,
+      "default": 160000
+    },
+    "hard_percent": {
+      "type": "number",
+      "title": "Hard context percentage",
+      "description": "Prioritize a safe checkpoint at this context percentage",
+      "min": 2,
+      "max": 99,
+      "default": 85
+    },
+    "skill_mode": {
+      "type": "string",
+      "title": "Skill restoration",
+      "description": "Which confirmed, relevant skills may carry over",
+      "options": [
+        "relevant",
+        "allowlist",
+        "none"
+      ],
+      "default": "relevant"
+    },
+    "skill_allow": {
+      "type": "string",
+      "title": "Skill allowlist",
+      "description": "Comma-separated exact skill IDs for allowlist mode",
+      "default": ""
+    },
+    "skill_deny": {
+      "type": "string",
+      "title": "Skill denylist",
+      "description": "Comma-separated exact skill IDs to exclude from restoration",
+      "default": ""
+    }
+  }
+}
